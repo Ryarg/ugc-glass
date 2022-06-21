@@ -71,8 +71,9 @@ li {
 }
 .news_body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;
+	font-size: 11px;
 	color: #000000;
+	line-height: 18px;
 }
 a.nav:link {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
