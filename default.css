@@ -1,3 +1,7 @@
+body {
+	background-color: #879eb2;
+	margin:0;
+}
 #container {
 	background-color: #FFFFFF;
 	width: 771px;
@@ -63,11 +67,6 @@ li {
 }
 .border {
 	border-left: 1px dotted #CCCCCC;
-}
-.background {
-	background-attachment: scroll;
-	background-repeat: repeat-y;
-	background-color: #879eb2;
 }
 .news_title {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
