@@ -66,6 +66,7 @@ li {
 .background {
 	background-attachment: scroll;
 	background-repeat: repeat-y;
+	background-color: #FFFFFF;
 }
 .news_title {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
