@@ -1,8 +1,13 @@
+body {
+	background-color: #879eb2;
+	margin:0;
+}
 #wrapper {
 	width: 771px;
 	margin: 0 auto;
-	padding:0;
+	padding:20;
 	position: relative;
+	background-color: #FFFFFF;
 }
 .copyright {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
