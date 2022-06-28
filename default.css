@@ -1,16 +1,14 @@
 #container {
-	width: 771px;
-	margin: 0 auto;
-	padding:0;
-	position: absolute;
-	background-color: #FFFFFF;
-}
-#wrapper {
 	background-color: #FFFFFF;
 	width: 771px;
 	margin: 0 auto;
 	padding:0;
 	position: relative;
+}
+#wrapper {
+	width: 771px;
+	margin: 0 auto;
+	padding:0;
 }
 .copyright {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
