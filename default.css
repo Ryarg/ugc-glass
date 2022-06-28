@@ -10,6 +10,7 @@ body {
 	position: relative;
 }
 #wrapper {
+	background-color: #FFFFFF;
 	width: 771px;
 	margin: 0 auto;
 	padding:0;
