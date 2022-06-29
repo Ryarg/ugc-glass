@@ -64,7 +64,7 @@ function doClock(){ // By Paul Davis - www.kaosweaver.com
 </script>
 </head>
 <body onLoad="MM_preloadImages('images/default_a_ov.gif','images/medium_a_ov.gif','images/home_ov.gif','images/over_ov.gif','images/comp_ov.gif','images/locations_ov.gif','images/prod_ov.gif','images/manage_ov.gif','images/job_ov.gif','images/ethics_ov.gif','images/contact_ov.gif','images/home_on.gif')">
-<div id="wrapper">
+<table id="wrapper"><tr><td>
   <div id="top" style="position:absolute; left:8px; top:5px; width:762px; height:75px; z-index:1"><a name="head" id="head"></a><!-- InstanceBeginEditable name="logo" --><img src="images/logo.jpg" alt="UGC Logo > Home" width="174" height="75" border="0" /><!-- InstanceEndEditable --><img src="images/clouds.jpg" alt="Clouds Graphic" width="588" height="75"></div>
 <div id="Layer2" style="position:absolute; left:7px; top:105px; width:741px; height:19px; z-index:3"><img src="images/bar_corn.gif" width="11" height="19" /><img src="images/cont_top.gif" width="617" height="19"><img src="images/textsize.gif" alt="Text Size" width="68" height="19"><a href="javascript:;" onClick="setActiveStyleSheet('Small', 1);return false;" onMouseOver="MM_swapImage('small','','images/small_a_ov.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="images/small_a_on.gif" alt="Small Text" name="Small" width="13" height="19" border="0" id="small" title="Small" /></a><a href="javascript:;" onClick="setActiveStyleSheet('Default', 1);return false;" onMouseOver="MM_swapImage('default','','images/default_a_ov.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="images/default_a_on.gif" alt="Default Text" name="default" width="15" height="19" border="0" id="Default" title="Default" /></a><a href="javascript:;" onClick="setActiveStyleSheet('Medium', 1);return false;" onMouseOver="MM_swapImage('medium','','images/medium_a_ov.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="images/medium_a_on.gif" alt="Medium Text" name="medium" width="17" height="19" border="0" id="Medium" title="Medium" /></a></div>
 <div id="home" style="position:absolute; left:7px; top:84px; width:52px; height:21px; z-index:12"><!-- InstanceBeginEditable name="home_but" --><img src="images/home_ov.gif" alt="Home" name="home" width="52" height="21" border="0" id="home" /><!-- InstanceEndEditable --></div>
@@ -83,7 +83,7 @@ function doClock(){ // By Paul Davis - www.kaosweaver.com
   </script>
 </div>
 <!-- InstanceBeginEditable name="news" --><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="sidepanel" -->
-<div id="Layer6" style="position:absolute; left:21px; top:148px; width:146px; z-index:7; height: 285px;" class="news_body"><span class="news_title">News</span><br />
+<div id="Layer6" class="news_body"><span class="news_title">News</span><br />
     <span class="small_heading">July 9, 2020</span><br />
   Lawrence E. O'Connell, Chairman and CEO of United Glass Corporation (UGC), announced the formation of Northern California Glass Co., Inc... <a href="news.html" class="small">more</a><br />
   <br />
@@ -91,7 +91,9 @@ function doClock(){ // By Paul Davis - www.kaosweaver.com
   Lawrence E. O'Connell, Chairman and CEO of United Glass Corporation (UGC), announced the resignation of James W. (Jim) Bradford as President and CEO of the company... <a href="news.html#two" class="small">more</a></div>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="ident" --><!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="panel" --><!-- InstanceEndEditable --> <!-- InstanceBeginEditable name="content" -->
-<div id="content" style="position:absolute; left:196px; top:146px; width:573px; z-index:9;" class="border">
+<table id="content">
+  <tr>
+    <td>
   <div class="pagetitle"><img src="images/welcome.gif" alt="Welcome to the United Glass Corporation" name="welcome" width="425" height="68" id="welcome" /></div>
   <br />
   <p class="body"><span class="medtitle3"> Who Is UGC ?</span><br />
@@ -102,10 +104,19 @@ function doClock(){ // By Paul Davis - www.kaosweaver.com
   <p><img src="images/spacer.gif" width="1" height="1" class="hrdash" /></p>
   <p align="left" class="body"><span class="medtitle3"> How Do I Contact UGC ?</span><br />
   If you are regional, click on &quot;Companies&quot; at the top or bottom to determine the company nearest to your location. Or, if you are a national company or unsure which location covers your region, go to the &quot;Contact&quot; page and find the information to reach UGC headquarters and we will assist you. Either way, call, email, write, or fax us immediately!</p>
-  <p class="body">&nbsp;</p>
-  <p><img src="images/spacer.gif" width="1" height="1" class="hrdash" /></p>
-  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="about.html" class="navbot">About Us</a> | <a href="companies.html" class="navbot">Companies</a> | <a href="locations.html" class="navbot">Locations</a> | <a href="products.html" class="navbot">Products &amp; Services</a> | <a href="manage.html" class="navbot">Management </a>| <a href="contact.html" class="navbot">Contact</a></span><br />
-<span class="copyright">Copyright &copy; United Glass Corporation 2020</span></div>
+  <p class="body">&nbsp;</p><p><img src="images/spacer.gif" width="1" height="170" /></p></td>
+  </tr>
+  <tr>
+   <td valign="bottom">
+  <div id="bottom-nav"><img src="images/spacer.gif" width="1" height="1" />
+    <a href="about.html" class="navbot">About Us</a> | <a href="companies.html" class="navbot">Companies</a> | <a href="locations.html" class="navbot">Locations</a> | <a href="products.html" class="navbot">Products &amp; Services</a> | <a href="manage.html" class="navbot">Management </a>| <a href="contact.html" class="navbot">Contact</a></span><br />
+  <span class="copyright">Copyright &copy; United Glass Corporation 2020</span></div></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+  </div>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="contbot" -->
 <!-- InstanceEndEditable -->
 </div></div>
